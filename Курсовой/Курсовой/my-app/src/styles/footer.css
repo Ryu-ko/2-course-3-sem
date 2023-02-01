@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../font/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../font/OpenSans-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../font/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../font/OpenSans-SemiBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../font/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../font/OpenSans-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../font/OpenSans-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../font/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-style: italic;
+  src: url("../font/OpenSans-Light.ttf") format("truetype");
+}
+.FotrCont .SocMedia {
+  background-color: #6EB2E3;
+  height: 90px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.FotrCont .SocMedia a {
+  margin: 0px 8px 0px 8px;
+}
+.FotrCont .SocMedia a img {
+  width: 90%;
+  height: 50%;
+}
+.FotrCont .CaptFooter {
+  background-color: #3A6382;
+  height: 150px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FotrCont .CaptFooter p {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-weight: lighter;
+  width: 25%;
+  font-size: 14px;
+  margin: 0px;
+}
+
+@media (max-width: 1350px) {
+  .FotrCont .SocMedia {
+    height: 70px;
+    text-align: center;
+  }
+  .FotrCont .SocMedia a img {
+    width: 65%;
+    height: 50%;
+  }
+  .FotrCont .CaptFooter {
+    height: 150px;
+    margin: 0px;
+  }
+  .FotrCont .CaptFooter p {
+    width: 70%;
+    font-size: 10px;
+    margin: 0px;
+  }
+}/*# sourceMappingURL=footer.css.map */

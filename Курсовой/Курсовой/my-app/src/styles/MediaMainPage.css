@@ -1,0 +1,61 @@
+@media (max-width: 1350px) {
+  .MainDv {
+    width: 100%;
+    height: 310px;
+  }
+  .MainDv .Left {
+    width: 40%;
+    margin-top: 7%;
+    text-align: center;
+    font-style: normal;
+  }
+  .MainDv .Left h1 {
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .MainDv .Left p {
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .MainDv .Left button {
+    font-weight: 600;
+    font-size: 10px;
+    width: 60%;
+    height: 6%;
+    margin: 5px 10px 0px 10px;
+  }
+  .MainDv .Right {
+    width: 55%;
+    margin-top: 4%;
+  }
+  .MainDv .Right .LinksMainDV {
+    color: white;
+    text-decoration: none;
+  }
+  .MainDv .Right .LinksMainDV:visited {
+    color: rgb(255, 255, 255);
+  }
+  .MainDv .Right .LinksMainDV h2, .MainDv .Right .LinksMainDV p {
+    position: relative;
+    margin-left: 20%;
+    margin-top: 65%;
+    width: 70%;
+  }
+  .MainDv .Right .LinksMainDV h2 {
+    margin-bottom: 5%;
+    font-size: 16px;
+  }
+  .MainDv .Right .LinksMainDV p {
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .MainDv .Right .LinksMainDV .Sofa {
+    position: absolute;
+    width: 94%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=MediaMainPage.css.map */

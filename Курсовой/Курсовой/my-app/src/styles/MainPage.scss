@@ -1,0 +1,74 @@
+@import './fonts.scss';
+
+.MainDv{
+    background-color: #6EB2E3;
+    color: rgba(255, 255, 255, 1);
+
+    width: 100%;
+    height: 650px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+
+    .Left{
+        width: 30%;
+        margin-top: 7%;
+        text-align: center;
+
+        font-style: normal;
+        h1{
+            font-weight: 800;  
+        }
+        p{
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        button{
+            font-family: 'Open Sans';
+            font-weight: 600;
+            text-align: center;
+            border-radius: 64px;
+            width: 28%;
+            height: 6%;
+            border:none;
+            margin: 5px 10px 0px 10px;
+
+        }
+    }
+    .Right{ 
+        position: relative;
+        width: 55%;
+        margin-top: 4%;
+        .LinksMainDV{
+            color: white;
+            text-decoration: none;
+            &:visited {
+                color: rgb(255, 255, 255);
+            } 
+        }
+        h2,p{
+            position: relative;
+            margin-left: 25%;
+            margin-top: 3%;
+            width: 40%;
+        }
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            font-weight: 600;
+            margin-top: 9px;
+            margin-bottom: 9px;
+        }
+        .Sofa{
+            position: absolute;
+            width: 94%;
+           // border-bottom: black 2px solid;
+           // border-right: black 2px solid;
+
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.item {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.item img {
+  width: 6vw;
+  float: left;
+  margin-right: 0%;
+}
+.item h3 {
+  font-size: 1vw;
+  margin-bottom: 1vh;
+  margin-top: 2%;
+  width: 90%;
+}
+.item p {
+  color: black;
+  font-weight: 400;
+}
+.item .deleteIcon {
+  color: rgb(0, 0, 0);
+  float: right;
+  right: 4%;
+  position: relative;
+  top: -6vh;
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: transform 0.15s linear;
+}
+.item .deleteIcon:hover {
+  transform: scale(1);
+  color: rgb(185, 2, 2);
+}
+
+@media (max-width: 1350px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item img {
+    width: 29vw;
+    float: left;
+    margin-right: 0%;
+  }
+  .item h3 {
+    font-size: 2.5vw;
+    margin-bottom: 0vh;
+    margin-top: 2%;
+    width: 90%;
+  }
+  .item p {
+    color: black;
+    font-weight: 600;
+    font-size: 2.6vw;
+    margin: 1%;
+  }
+  .item .deleteIcon {
+    color: rgb(0, 0, 0);
+    float: right;
+    right: -40%;
+    position: relative;
+    top: -1.9vh;
+    width: 20%;
+  }
+}/*# sourceMappingURL=OrderPage.module.css.map */

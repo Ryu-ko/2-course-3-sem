@@ -1,0 +1,232 @@
+@import './fonts.scss';
+
+
+.HdrCont{
+    background-color: #6EB2E3;
+    font-family: 'Open Sans';
+    font-style: normal;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    height: 110px;
+
+    //position: fixed;
+    position: relative;
+    top:0px;
+    z-index: 3;
+    
+    
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    
+    .Name{
+         margin: 0px;
+         font-weight: 800;
+        }
+
+    .comp{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+        font-size: 16px;
+        width: 86%;
+
+        height: 50%;
+
+        .Icons{
+            margin-left: 0px; //105
+
+            .userric{
+                width: 62%;
+                transform: scale(3);
+                float: right;
+                cursor: pointer;
+                transition: color, transform 400ms ease;
+                &:hover {
+                    color: #018dc9;
+                    transform: scale(2.5);
+                }
+            }
+        }
+
+        .txt{
+            width:30%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-weight: 600;
+            .links{
+                color:rgba(255, 255, 255, 1);
+                text-decoration: none;
+            }      
+            :hover{
+                text-decoration: underline;
+            }
+        }
+
+
+        .Iconsss {
+            margin-right: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+
+            .cart {
+                width: 60%;
+                transform: scale(3);
+                float: right;
+                cursor: pointer;
+                transition: color, transform 400ms ease;
+                &:hover {
+                    color: #018dc9;
+                    transform: scale(2.5);
+                }            
+            }
+
+            .active {
+                color: #018dc9;
+                transform: scale(3.5);
+            }
+
+            .shopCart {
+                position: absolute;
+                top: 240%;
+                right: -100px;
+                
+                width: 27vw;
+                background-color: rgb(255, 255, 255);
+                border: 2px solid rgb(0, 0, 0);
+                z-index: 1000;
+                padding: 1vw;
+                
+                .myorders {
+                    height:30vh;
+                    width: 100%;
+                    overflow: auto; 
+                    color: #000000;
+                 
+                    border-bottom: 2px solid black;
+                    .myorders2 {
+                        max-height: 90%;
+ 
+                    }
+                }
+
+                .empty h2 {
+                    font-size: 16px;
+                    padding: 2%;
+                    color: #000000;
+                }
+            }
+
+            .summa {
+                color: #000000;
+                float: left;
+                width: 100%;
+                font-weight: 600;
+                font-size: 14px;
+                margin-bottom: 1vh;
+            }
+
+        }
+    }
+
+}
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+@media (max-width: 1350px) {
+    .HdrCont{
+        height: 90px;
+        .Name{
+             margin: 0px;
+             font-weight: 800;
+             font-size: 20px;
+            }
+    
+        .comp{
+
+            font-size: 12px;
+            width: 90%;
+    
+            .Icons{
+                
+                .userric{
+                    width: 60%;
+                    transform: scale(3);
+                    &:hover {
+                        color: #018dc9;
+                        transform: scale(2.5);
+                    }                
+                }
+            }
+            .txt{
+             
+                width: 100%;
+            }
+       
+            .Iconsss {
+
+                .cart {
+                    width: 60%;
+                    transform: scale(3);
+                    &:hover {
+                        color: #018dc9;
+                        transform: scale(2.5);
+                    }            
+                }
+    
+                .active {
+                    color: #ffffff;
+                    transform: scale(3.5);
+                }
+    
+                .shopCart {
+                    position: absolute;
+                    top: 240%;
+                    right: -18px;      
+                    width: 45vw;
+                    
+                    .myorders {
+                        height: 20vh;
+                        width: 100%;
+                        overflow: auto; 
+                        color: #000000;
+                     
+                        border-bottom: 2px solid black;
+
+                        .myorders2 {
+                            max-height: 90%;
+     
+                        }
+                    }
+    
+                    .empty h2 {
+                        font-size: 12px;
+                        padding: 2%;
+                    }
+             } 
+                .summa {
+                    font-size: 10px;
+
+                }
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,320 @@
+
+.container {
+    width: 100%;
+    font-family: 'Open Sans';
+  
+    .options {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+  
+      background-color: white;
+      
+      margin-top: 3%;
+      margin-bottom: 2%;
+     
+  
+      .findBlock {
+        display: flex;
+        width: 30%;
+        height: 20px;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+          form {
+            
+            .searchInput {
+             border: 3px #FFCB30 solid;
+             border-radius: 30px;
+  
+             padding-left: 5%;
+             width: 100%;
+             height: 100%;
+             display: flex; 
+             justify-content: center;
+             align-items: center;
+            
+             outline: none;
+             background-color: rgb(255, 255, 255);
+  
+            }
+  
+            .autocomplete {
+              
+              position: absolute;
+              width: 30%;
+              margin-left: 1%;
+              background-color: white;
+              padding: 0;
+              box-shadow: 0px 0px 3px black;
+              z-index: 111;
+              max-height: 30%;
+              height: auto;
+              overflow: auto;
+              font-size: 16px;
+              .item {
+                padding-left: 3%;
+                padding-bottom: 1%;
+                font-weight: 600;
+  
+                &:hover {
+                  background-color: rgb(195, 195, 195);
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+      
+    
+      }
+      
+    
+      .words {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        width: 30%;
+        height: 40px;
+  
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 2%;
+        padding: 0;
+        
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          border: 2px #A49F92 solid;
+          border-radius: 30px;
+          width: 30%;
+          p {    
+            margin: 0;  
+            padding: 3%;
+            display: inline-block;
+          }
+          
+        } 
+      } 
+      
+    }//options
+  
+  
+  
+    .catalog {
+      background-color: white;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+      
+  
+      .block {
+        width: 30%;
+        margin-bottom: 4%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+  
+        .linkBlockFRS {
+            text-align: center;
+  
+            .first {
+              
+                .catalogPhoto {
+                    width: 90%;  
+  
+                }
+  
+            }
+        } 
+        
+        .add {
+          width: 3%;
+          color: rgb(0, 0, 0);
+          transform: scale(2.5);
+          position: relative;
+          top: 9%;
+          left: 37%;
+          cursor: pointer;
+  
+          transition: transform .15s linear;
+  
+          &:hover {
+            transform: scale(2);
+          }
+        }     
+        
+        .text {
+            width: 80%;  
+  
+            .linkBlockSec {
+                text-decoration: none;
+                color:black;
+                
+                &:visited {
+                    color: black;
+                } 
+                
+            }
+                
+            p {
+                text-align: center;
+                font-size: 14px;
+                margin-top: 2%;
+                margin-bottom:0%;
+  
+            }
+        }
+  
+        .hideBlock {
+          display: none;
+          position: absolute;
+        }
+    }
+  
+    }
+  
+  }
+  
+  
+  
+  
+  @media (max-width: 1350px) {
+
+    .container {
+     
+        .options {
+          background-color: white;       
+          margin-top: 3%;
+          margin-bottom: 2%;
+        
+          .findBlock {
+            width: 40%;
+            height: 20px;
+              form {
+                
+                .searchInput {
+                 padding-left: 5%;
+                 width: 90%;
+                 height: 70%;
+                 font-size: 12px;
+                 outline: none;
+                 background-color: rgb(255, 255, 255);
+      
+                }
+      
+                .autocomplete {
+                  font-size: 10px;
+                  position: absolute;
+                  width: 30%;
+                  max-height: 20%;
+                  .item {
+                    padding-left: 3%;
+                    padding-bottom: 1%;
+                    font-weight: 600;
+      
+                    &:hover {
+                      background-color: rgb(195, 195, 195);
+                      cursor: pointer;
+                    }
+                  }
+                }
+              }
+          
+        
+          }
+          
+        
+          .words {
+
+            width: 50%;
+            height: 40px;
+      
+
+            font-weight: 600;
+            margin-top: 2%;
+            padding: 0;
+            
+            div {
+              border-radius: 30px;
+              width: 40%;
+
+
+              p {
+                font-size: 10px;   
+                margin: 0;  
+                padding: 3%;
+                display: inline-block;
+              }
+              
+            } 
+          } 
+          
+        }//options
+      
+      
+      
+        .catalog {
+          background-color: white;
+          width: 100%;
+
+          .block {
+            width: 50%;
+            margin-bottom: 4%;
+      
+            .linkBlockFRS {
+                text-align: center;
+      
+                .first {         
+                    .catalogPhoto {
+                        width: 90%;       
+                    }
+      
+                }
+            } 
+            
+            .add {
+              width:4%;
+            }       
+            .text {
+                width: 80%;  
+      
+                .linkBlockSec {
+                    text-decoration: none;
+                    color:black;
+                    
+                    &:visited {
+                        color: black;
+                    } 
+                    
+                }
+                    
+                p {
+                    text-align: center;
+                    font-size: 11px;
+                    margin-top: 2%;
+                    margin-bottom:0%;
+      
+                }
+            }
+      
+            .hideBlock {
+              display: none;
+              position: absolute;
+            }
+        }
+      
+        }
+      
+      }  
+      
+}

@@ -1,0 +1,403 @@
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../font/OpenSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: italic;
+  src: url("../font/OpenSans-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../font/OpenSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-style: italic;
+  src: url("../font/OpenSans-SemiBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../font/OpenSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../font/OpenSans-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../font/OpenSans-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 800;
+  font-style: italic;
+  src: url("../font/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: lighter;
+  font-style: italic;
+  src: url("../font/OpenSans-Light.ttf") format("truetype");
+}
+.MainDv3 {
+  background-color: white;
+  width: 100%;
+}
+.MainDv3 .About3 {
+  width: 100%;
+  height: 990px;
+  background-image: url("../img/about/mnimg.jpg");
+  color: white;
+}
+.MainDv3 .About3 .Aboutblock3 {
+  height: 76%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.MainDv3 .About3 .Aboutblock3 .PAbCompZag {
+  font-weight: bold;
+  font-size: 22px;
+}
+.MainDv3 .About3 .Aboutblock3 .PAbCompZagTXT {
+  margin: 2% 0% 0% 0%;
+  font-size: 16px;
+  line-height: 30px;
+  width: 55%;
+  font-weight: bold;
+}
+.MainDv3 .About3 .Aboutblock3 .imgs {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2%;
+}
+.MainDv3 .About3 .Aboutblock3 .imgs figure {
+  text-align: center;
+}
+.MainDv3 .About3 .Aboutblock3 .imgs figure img {
+  width: 70%;
+}
+.MainDv3 .About3 .Aboutblock3 .imgs figure figcaption {
+  width: 114.69px;
+  height: 70.31px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.MainDv3 .blk3 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MainDv3 .blk3 img {
+  width: 518px;
+  height: 458px;
+}
+.MainDv3 .blk3 p {
+  margin: 0%;
+}
+.MainDv3 .blk3 .blocks3 {
+  width: 90%;
+  margin-top: 5%;
+}
+.MainDv3 .blk3 .blocks3 .Bluedv {
+  position: relative;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #6EB2E3;
+  width: 68%;
+  height: 50%;
+}
+.MainDv3 .blk3 .blocks3 .Bluedv h3 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5%;
+}
+.MainDv3 .blk3 .blocks3 .Bluedv .textblueDv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MainDv3 .blk3 .blocks3 .Bluedv .textblueDv p {
+  width: 90%;
+  text-align: center;
+  height: 80%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 142.68%;
+}
+.MainDv3 .blk3 .blocks3 .Bluedv img {
+  margin-right: 3%;
+  width: 50%;
+  height: 85%;
+}
+.MainDv3 .blk3 .blocks3 .Yellowdv {
+  margin-top: 5%;
+  width: 68%;
+  height: 52%;
+  background-color: #fdc82a;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  right: -24%;
+}
+.MainDv3 .blk3 .blocks3 .Yellowdv .textYelDv {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MainDv3 .blk3 .blocks3 .Yellowdv .textYelDv p {
+  width: 90%;
+  text-align: center;
+  height: 80%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 142.68%;
+}
+.MainDv3 .blk3 .blocks3 .Yellowdv img {
+  margin-left: 3%;
+  width: 50%;
+  height: 85%;
+}
+.MainDv3 .AbtExamples {
+  height: 1850px;
+  margin-top: 5%;
+}
+.MainDv3 .AbtExamples h2 {
+  margin-left: 7%;
+}
+.MainDv3 .AbtExamples .ExamplesDV {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.MainDv3 .AbtExamples .ExamplesDV .exmpimg1 {
+  width: 49%;
+  height: 49%;
+  margin: 0% 3% 3% 0%;
+}
+.MainDv3 .AbtExamples .ExamplesDV .exmpimg2 {
+  width: 34%;
+  height: 30%;
+}
+.MainDv3 .AbtExamples .ExamplesDV .exmpimg3 {
+  width: 34%;
+  height: 536px;
+  margin: 0% 3% 3% 0%;
+}
+.MainDv3 .AbtExamples .ExamplesDV .exmpimg4 {
+  width: 49%;
+  height: 50%;
+}
+.MainDv3 .AbtExamples .ExamplesDV .exmpimg5 {
+  width: 30%;
+  height: 557px;
+  margin: 0% 3% 0% 3%;
+}
+.MainDv3 .AbtExamples .ExamplesDV .exmpimg6 {
+  width: 22%;
+  height: 405px;
+  margin: 4% 3% 0% 0%;
+}
+.MainDv3 .AbtExamples .ExamplesDV .exmpimg7 {
+  width: 30%;
+  height: 557px;
+  margin: 0% 3% 0% 0%;
+}
+
+@media (max-width: 1350px) {
+  .MainDv3 .About3 {
+    width: 100%;
+    height: 700px;
+  }
+  .MainDv3 .About3 .Aboutblock3 {
+    height: 80%;
+  }
+  .MainDv3 .About3 .Aboutblock3 .PAbCompZag {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .MainDv3 .About3 .Aboutblock3 .PAbCompZagTXT {
+    margin: 2% 0% 4% 0%;
+    font-size: 12px;
+    line-height: 20px;
+    width: 75%;
+    font-weight: bold;
+  }
+  .MainDv3 .About3 .Aboutblock3 .imgs {
+    width: 80%;
+    margin-top: 2%;
+  }
+  .MainDv3 .About3 .Aboutblock3 .imgs figure {
+    text-align: center;
+    margin: 0;
+    width: 50%;
+    height: 40%;
+  }
+  .MainDv3 .About3 .Aboutblock3 .imgs figure img {
+    width: 30%;
+  }
+  .MainDv3 .About3 .Aboutblock3 .imgs figure figcaption {
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    font-size: 12px;
+  }
+  .MainDv3 .blk3 {
+    width: 100%;
+    height: 100%;
+  }
+  .MainDv3 .blk3 img {
+    width: 518px;
+    height: 458px;
+  }
+  .MainDv3 .blk3 p {
+    margin: 0%;
+  }
+  .MainDv3 .blk3 .blocks3 {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .MainDv3 .blk3 .blocks3 .Bluedv {
+    position: relative;
+    left: 0%;
+    margin: 0px;
+    width: 100%;
+    height: 50%;
+  }
+  .MainDv3 .blk3 .blocks3 .Bluedv h3 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5%;
+    font-size: 14px;
+  }
+  .MainDv3 .blk3 .blocks3 .Bluedv .textblueDv {
+    width: 90%;
+  }
+  .MainDv3 .blk3 .blocks3 .Bluedv .textblueDv p {
+    width: 90%;
+    text-align: center;
+    height: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 142.68%;
+  }
+  .MainDv3 .blk3 .blocks3 .Bluedv img {
+    margin-right: 0%;
+    width: 50%;
+    height: 80%;
+  }
+  .MainDv3 .blk3 .blocks3 .Yellowdv {
+    margin-top: 5%;
+    width: 100%;
+    height: 50%;
+    background-color: #fdc82a;
+    right: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .MainDv3 .blk3 .blocks3 .Yellowdv .textYelDv {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .MainDv3 .blk3 .blocks3 .Yellowdv .textYelDv h3 {
+    margin-top: 0px;
+    margin-bottom: 2%;
+    font-size: 14px;
+  }
+  .MainDv3 .blk3 .blocks3 .Yellowdv .textYelDv p {
+    width: 90%;
+    text-align: center;
+    height: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 142.68%;
+  }
+  .MainDv3 .blk3 .blocks3 .Yellowdv img {
+    margin-left: 0%;
+    width: 50%;
+    height: 100%;
+  }
+  .MainDv3 .AbtExamples {
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .MainDv3 .AbtExamples h2 {
+    text-align: center;
+    margin-left: 0%;
+  }
+  .MainDv3 .AbtExamples .ExamplesDV .exmpimg1 {
+    width: 55%;
+    height: 49%;
+    margin: 0% 3% 3% 0%;
+  }
+  .MainDv3 .AbtExamples .ExamplesDV .exmpimg2 {
+    width: 39%;
+    height: 30%;
+  }
+  .MainDv3 .AbtExamples .ExamplesDV .exmpimg3 {
+    width: 40%;
+    height: 20%;
+    margin: 0% 3% 3% 0%;
+  }
+  .MainDv3 .AbtExamples .ExamplesDV .exmpimg4 {
+    width: 54%;
+    height: 50%;
+  }
+  .MainDv3 .AbtExamples .ExamplesDV .exmpimg5 {
+    width: 45%;
+    height: 20%;
+    margin: 3%;
+  }
+  .MainDv3 .AbtExamples .ExamplesDV .exmpimg6 {
+    width: 41%;
+    height: 20%;
+    margin: 3%;
+  }
+  .MainDv3 .AbtExamples .ExamplesDV .exmpimg7 {
+    width: 45%;
+    height: 20%;
+    margin: 3%;
+  }
+}/*# sourceMappingURL=About_Us.css.map */

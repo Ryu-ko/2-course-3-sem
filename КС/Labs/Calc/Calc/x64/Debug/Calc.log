@@ -1,0 +1,5 @@
+﻿  Calc.cpp
+F:\.Уник\2 курс\КС\Labs\Calc\Calc\Calc.cpp(98,19): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+F:\.Уник\2 курс\КС\Labs\Calc\Calc\Calc.cpp(57,12): warning C4101: mod: неиспользованная локальная переменная
+F:\.Уник\2 курс\КС\Labs\Calc\Calc\Calc.cpp(57,7): warning C4101: bin: неиспользованная локальная переменная
+  Calc.vcxproj -> F:\.Уник\2 курс\КС\Labs\Calc\x64\Debug\Calc.exe
